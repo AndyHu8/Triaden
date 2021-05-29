@@ -1,0 +1,60 @@
+* {margin: 0; padding: 0; box-sizing: border-box; font-family: 'Reggae One', cursive; color: white;}
+
+/*Navigation*/
+nav {width: 100%; background-color: none; position: fixed; background-color:#040d11; z-index: 99; border-bottom: 1px solid white;}
+.logo_div {display: flex; justify-content: center; align-items: center;}
+.logo_div p {font-size: 20px; color: #b6a881;}
+.logo_div img {width: 100px; padding: 10px;}
+nav ul {display: flex; list-style: none; justify-content: center; align-items: center;}
+nav ul li {font-size: 20px; padding: 0.5vw 1vw;}
+nav ul li a {color: white; padding: 1vw; text-decoration: none;}
+nav ul li:hover {background-color: #b6a881; transition: all 0.5s ease;}
+.burger-nav {display: none;}
+
+/*Inhalt*/
+#orgaHongkong, #orgaTaiwan, #geschichte, #spiele {position: absolute; background-color: black;}
+#wrapper {margin: 200px 5% 100px 5%;}
+.oberUeberschrift {width: 100%; background-color: black; border: 1px solid #b6a881; border-radius: 10px; text-align: center;}
+.oberUeberschrift h1 {padding: 10px; font-size: 30px; color: #b6a881;}
+
+.ueberschrift h1 {padding-top: 50px; color: #b6a881; font-size: 25px;}
+#wrapper p {font-size: 15px; padding-top: 10px;}
+
+.wallpaper {width: 100%; margin-top: 20px;}
+.ueberschriftSpiele h1 {padding-top: 20px; color: #b6a881; font-size: 25px;}
+
+
+
+
+
+
+
+@media screen and (max-width: 1430px){
+    #logo_div p {font-size: 15px;}
+    nav ul li {font-size: 15px;}
+
+    .oberUeberschrift h1 {font-size: 20px;}
+    .ueberschrift h1 {font-size: 20px;}
+    .ueberschriftSpiele h1 {font-size: 20px;}
+    #wrapper p {font-size: 10px;}
+}
+
+@media screen and (max-width: 1100px){
+    #logo_div p {font-size: 12px;}
+    nav ul li {font-size: 12px;}
+
+    .oberUeberschrift h1 {font-size: 15px;}
+    .ueberschrift h1 {font-size: 15px;}
+    .ueberschriftSpiele h1 {font-size: 15px;}
+}
+
+/*Mobile*/
+@media screen and (max-width: 900px){
+    .logo_div, hr {display: none;}
+    #wrapper {margin: 100px 5%;}
+
+    .burger-nav {display: block; background-color: transparent; font-size: 150%; padding: 5px; float: right; border-bottom: 1px solid black; cursor: pointer;}
+    nav ul {overflow: hidden; height: 0; display: flex; flex-direction: column; align-items: center; justify-content: center; margin-top: 50px;}
+    nav ul li {width: 100%; text-align: center; padding: 10px;}
+    nav ul.open {height: auto;}
+}
