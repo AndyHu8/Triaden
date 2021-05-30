@@ -12,7 +12,7 @@ nav ul li:hover {background-color: #b6a881; transition: all 0.5s ease;}
 .burger-nav {display: none;}
 
 /*Inhalt*/
-#orgaHongkong, #orgaTaiwan, #geschichte, #spiele {position: absolute; background-color: black;}
+#orgaHongkong, #orgaTaiwan, #geschichte, #spiele, #aufbau, #fingercodes {position: absolute; background-color: black;}
 #wrapper {margin: 200px 5% 100px 5%;}
 .oberUeberschrift {width: 100%; background-color: black; border: 1px solid #b6a881; border-radius: 10px; text-align: center;}
 .oberUeberschrift h1 {padding: 10px; font-size: 30px; color: #b6a881;}
@@ -23,13 +23,8 @@ nav ul li:hover {background-color: #b6a881; transition: all 0.5s ease;}
 .wallpaper {width: 100%; margin-top: 20px;}
 .ueberschriftSpiele h1 {padding-top: 20px; color: #b6a881; font-size: 25px;}
 
-
-
-
-
-
-
-@media screen and (max-width: 1430px){
+/*Media Queries*/
+@media screen and (max-width: 1530px){
     #logo_div p {font-size: 15px;}
     nav ul li {font-size: 15px;}
 
@@ -39,7 +34,7 @@ nav ul li:hover {background-color: #b6a881; transition: all 0.5s ease;}
     #wrapper p {font-size: 10px;}
 }
 
-@media screen and (max-width: 1100px){
+@media screen and (max-width: 1145px){
     #logo_div p {font-size: 12px;}
     nav ul li {font-size: 12px;}
 
@@ -49,12 +44,12 @@ nav ul li:hover {background-color: #b6a881; transition: all 0.5s ease;}
 }
 
 /*Mobile*/
-@media screen and (max-width: 900px){
+@media screen and (max-width: 930px){
     .logo_div, hr {display: none;}
     #wrapper {margin: 100px 5%;}
 
     .burger-nav {display: block; background-color: transparent; font-size: 150%; padding: 5px; float: right; border-bottom: 1px solid black; cursor: pointer;}
-    nav ul {overflow: hidden; height: 0; display: flex; flex-direction: column; align-items: center; justify-content: center; margin-top: 50px;}
+    nav ul {overflow: hidden; height: 0; display: flex; flex-direction: column; align-items: center; justify-content: center; margin-top: 50px; transition: 0.5s;}
     nav ul li {width: 100%; text-align: center; padding: 10px;}
     nav ul.open {height: auto;}
 }
