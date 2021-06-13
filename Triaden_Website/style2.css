@@ -12,44 +12,63 @@ nav ul li:hover {background-color: #b6a881; transition: all 0.5s ease;}
 .burger-nav {display: none;}
 
 /*Inhalt*/
-#orgaHongkong, #orgaTaiwan, #geschichte, #spiele, #aufbau, #fingercodes {position: absolute; background-color: black;}
-#wrapper {margin: 200px 5% 100px 5%;}
+#triadengesellschaften, #tongsUndGangs, #geschichte, #spiele, #aufbau, #fingercodes {position: absolute; background-color: black;}
+#wrapper {margin: 200px 5% 50px 5%;}
 .oberUeberschrift {width: 100%; background-color: black; border: 1px solid #b6a881; border-radius: 10px; text-align: center;}
 .oberUeberschrift h1 {padding: 10px; font-size: 30px; color: #b6a881;}
 
 .ueberschrift h1 {padding-top: 50px; color: #b6a881; font-size: 25px;}
+.unterueberschrift h1 {padding-top: 30px; color: #b6a881; font-size: 18px; text-decoration: underline;}
 #wrapper p {font-size: 15px; padding-top: 10px;}
 
 .wallpaper {width: 100%; margin-top: 20px;}
 .ueberschriftSpiele h1 {padding-top: 20px; color: #b6a881; font-size: 25px;}
 
+/*Table*/
+table {border-collapse: collapse; width: 100%; text-align: center; border: 1px solid white; margin-top: 20px;}
+td, th {border: 1px solid #dddddd; text-align: center; padding: 8px;}
+tr:nth-child(even) {background-color: #040d11;}
+
+/*Link to All*/
+#linkToAll {width: 100%; text-align: center; font-size: 20px; background-color: #040d11; padding: 30px;}
+#linkToAll p a {text-decoration: none; transition: all 0.5s ease; color: #b6a881;}
+#linkToAll p a:hover {color: white;}
+
 /*Media Queries*/
-@media screen and (max-width: 1530px){
+@media screen and (max-width: 1700px){
     #logo_div p {font-size: 15px;}
     nav ul li {font-size: 15px;}
 
     .oberUeberschrift h1 {font-size: 20px;}
     .ueberschrift h1 {font-size: 20px;}
+    .unterueberschrift h1 {font-size: 15px;}
     .ueberschriftSpiele h1 {font-size: 20px;}
     #wrapper p {font-size: 10px;}
+
+    table {font-size: 12px;}
+    #linkToAll {font-size: 18px;}
 }
 
-@media screen and (max-width: 1145px){
+@media screen and (max-width: 1250px){
     #logo_div p {font-size: 12px;}
     nav ul li {font-size: 12px;}
 
     .oberUeberschrift h1 {font-size: 15px;}
     .ueberschrift h1 {font-size: 15px;}
+    .unterueberschrift h1 {font-size: 10px;}
     .ueberschriftSpiele h1 {font-size: 15px;}
+
+    table {font-size: 8px;}
+    #linkToAll {font-size: 12px;}
 }
 
 /*Mobile*/
-@media screen and (max-width: 930px){
+@media screen and (max-width: 970px){
     .logo_div, hr {display: none;}
     #wrapper {margin: 100px 5%;}
 
     .burger-nav {display: block; background-color: transparent; font-size: 150%; padding: 5px; float: right; border-bottom: 1px solid black; cursor: pointer;}
-    nav ul {overflow: hidden; height: 0; display: flex; flex-direction: column; align-items: center; justify-content: center; margin-top: 50px; transition: 0.5s;}
+    nav ul {overflow: hidden; height: 0; display: flex; flex-direction: column; align-items: center; justify-content: center; margin-top: 50px;}
     nav ul li {width: 100%; text-align: center; padding: 10px;}
     nav ul.open {height: auto;}
 }
