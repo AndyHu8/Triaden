@@ -1,4 +1,5 @@
 * {margin: 0; padding: 0; box-sizing: border-box; font-family: 'Reggae One', cursive;}
+html {scroll-behavior: smooth;}
 
 /*Navigation*/
 nav {width: 100%; background-color: none;}
@@ -35,7 +36,7 @@ nav ul li:hover {background-color: #b6a881; transition: all 0.5s ease;}
 
 /*Animation*/
 .intro {background: black; position: fixed; top: 0; left: 0; width: 100%; height: 100%; display: flex; justify-content: center; align-items: center;}
-.intro-text {color: #b6a881; font-family: sans-serif; font-size: 3rem;}
+.intro-text {color: #b6a881; font-family: sans-serif; font-size: 3rem; text-align: center;}
 .slider {background: #040d11; position: fixed; top: 0; left: 0; width: 100%; height: 100%; transform: translateY(100%);}
 .hide {background: black; overflow: hidden;} /*verdeckt den text*/
 .hide span {transform: translateY(100%); display: inline-block;} /*verschiebt etwas nach unten*/
@@ -62,7 +63,7 @@ nav ul li:hover {background-color: #b6a881; transition: all 0.5s ease;}
     #wallpaper_text p {font-size: 10px;}
     #wallpaper_text button i {font-size: 20px;}
     #allgemeineInfos_div h1 {font-size: 15px;}
-    #allgemeineInfos_text p {font-size: 10px;}
+    #allgemeineInfos_text p {font-size: 12px;}
 
     .footer {font-size: 12px;}
     .text {font-size: 50px;}

@@ -1,4 +1,5 @@
 * {margin: 0; padding: 0; box-sizing: border-box; font-family: 'Reggae One', cursive; color: white;}
+html {scroll-behavior: smooth;}
 
 /*Navigation*/
 nav {width: 100%; background-color: none; position: fixed; background-color:#040d11; z-index: 99; border-bottom: 1px solid white;}
@@ -43,7 +44,7 @@ tr:nth-child(even) {background-color: #040d11;}
     .ueberschrift h1 {font-size: 20px;}
     .unterueberschrift h1 {font-size: 15px;}
     .ueberschriftSpiele h1 {font-size: 20px;}
-    #wrapper p {font-size: 10px;}
+    #wrapper p {font-size: 15px;}
 
     table {font-size: 12px;}
     #linkToAll {font-size: 18px;}
@@ -57,6 +58,7 @@ tr:nth-child(even) {background-color: #040d11;}
     .ueberschrift h1 {font-size: 15px;}
     .unterueberschrift h1 {font-size: 10px;}
     .ueberschriftSpiele h1 {font-size: 15px;}
+    #wrapper p {font-size: 12px;}
 
     table {font-size: 8px;}
     #linkToAll {font-size: 12px;}
